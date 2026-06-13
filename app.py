@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import joblib
+import joblib 
 
 # Load model
 model = joblib.load("loan_prediction_model.pkl")
